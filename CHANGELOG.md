@@ -1,3 +1,7 @@
+## 2.0.2
+
+* Added support for Gradle 8.2
+
 ## 2.0.1
 
 * Migration to MavenCentral
