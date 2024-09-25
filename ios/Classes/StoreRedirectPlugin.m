@@ -24,7 +24,7 @@
                 iTunesLink = [NSString stringWithFormat:@"itms-apps://itunes.apple.com/WebObjects/MZStore.woa/wa/viewContentsUserReviews?type=Purple+Software&id=%@", appId];
             }
             
-            [[UIApplication sharedApplication] openURL:[NSURL URLWithString:iTunesLink]];
+            [[UIApplication sharedApplication] openURL:[NSURL URLWithString:iTunesLink] options:@{} completionHandler:nil];
             
             result(nil);
         }
